@@ -15,3 +15,15 @@ themeButton.onclick = function() {
     
 
 };
+let u = document.querySelectorAll('.u');
+let uu = document.querySelectorAll('.uu');
+const W = document.documentElement.scrollWidth
+
+var index;
+    for (index = 0; index < u.length; ++index) {
+        u[index].width=String(W*0.375)
+
+    }
+    for (index = 0; index < uu.length; ++index) {
+        uu[index].width=W
+    }
